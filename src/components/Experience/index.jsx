@@ -42,10 +42,18 @@ export default function Experience() {
           <div className="px-5 md:px-24">
             <Link
               to="/my-resume/#my-resume"
-              className={`cursor-pointer inline-block bg-[#e9b200] transition-all duration-300 ease-in-out rounded-lg text-white py-3 px-5 font-bold mt-8 uppercase md:py-2 lg:py-3 lg:px-8 md:text-xs lg:text-base md:mt-5 xl:mt-10 hover:bg-[#47AEDE] hover:show-lg transform hover:translate-y-1`}
+              className={`hidden sm:inline-block cursor-pointer bg-[#e9b200] transition-all duration-300 ease-in-out rounded-lg text-white py-3 px-5 font-bold mt-8 uppercase md:py-2 lg:py-3 lg:px-8 md:text-xs lg:text-base md:mt-5 xl:mt-10 hover:bg-[#47AEDE] hover:show-lg transform hover:translate-y-1`}
             >
               View my full resume
             </Link>
+            <a
+              title="Click to download my resume"
+              href="../download/qa-engineer-m.bielozorova.pdf"
+              download="qa-engineer-m.bielozorova.pdf"
+              className={`inline-block sm:hidden cursor-pointer bg-[#e9b200] transition-all duration-300 ease-in-out rounded-lg text-white py-3 px-5 font-bold mt-8 uppercase md:py-2 lg:py-3 lg:px-8 md:text-xs lg:text-base md:mt-5 xl:mt-10 hover:bg-[#47AEDE] hover:show-lg transform hover:translate-y-1 print:hidden`}
+            >
+              Download my resume
+            </a>
           </div>
         </div>
       </div>
