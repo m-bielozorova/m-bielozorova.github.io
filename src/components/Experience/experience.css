@@ -1,0 +1,149 @@
+.experience__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.experience__list-item {
+  display: flex;
+}
+
+.experience__list .date {
+  display: none;
+  border-radius: 0.25rem;
+
+  @media (min-width: 1110px) {
+    display: block;
+    text-align: center;
+    background: #48afde;
+    color: #fff;
+    min-width: 120px;
+    height: 64px;
+    margin-top: 4px;
+    position: relative;
+    padding: 0.25rem 0.15rem;
+  }
+
+  @media print {
+    display: block;
+    text-align: center;
+    background: #48afde;
+    color: #fff;
+    width: 100px;
+    height: 64px;
+    margin-top: 4px;
+    position: relative;
+    padding: 0.25rem 0.15rem;
+  }
+}
+
+.experience__list .date .date-delimiter {
+  display: flex;
+  justify-content: center;
+}
+
+.experience__list-item .date::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #48afde;
+  position: absolute;
+  top: 8px;
+  right: -5px;
+  transform: rotate(45deg);
+}
+
+.experience__list p {
+  padding: 0;
+  margin: 0;
+}
+
+.experience__list span {
+  font-weight: bold;
+}
+
+.experience__list-item .info {
+  margin-left: 2rem;
+  position: relative;
+
+  @media (min-width: 1110px) {
+    margin-left: 3rem;
+  }
+
+  @media print {
+    margin-left: 3rem;
+  }
+}
+
+.experience__list-item .info .item__title {
+  margin-top: 0;
+  padding: 5px 0 0 0;
+  color: #48afde;
+  font-weight: bold;
+}
+
+.experience__list-item .info .company__name {
+  font-weight: 900;
+  font-style: italic;
+}
+
+.experience__list-item .info .company__location {
+  font-style: italic;
+}
+
+.experience__list-item .info::before {
+  content: '\2713';
+  width: 24px;
+  height: 24px;
+  border-radius: 0.5rem;
+  background: #48afde;
+  position: absolute;
+  top: 4px;
+  left: -2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.experience__list-item .info::after {
+  content: '';
+  width: 1px;
+  height: calc(100% - 50px);
+  background: #4db7f1;
+  position: absolute;
+  top: 40px;
+  left: -1.25rem;
+  transform: rotate(180deg);
+}
+
+.responsibilities,
+.achievements {
+  padding-bottom: 1rem;
+  @media (min-width: 1110px) {
+    width: 650px;
+  }
+
+  @media ((min-width: 1280px) and (max-width: 1535px)) {
+    width: 100%;
+  }
+}
+
+.responsibilities-title,
+.achievements-title {
+  margin-top: 0.5rem;
+  color: #48afde;
+  font-weight: bold;
+}
+
+.responsibilities-list,
+.achievements-list {
+  list-style-type: square;
+  padding-inline-start: 40px;
+  font-weight: 300;
+}
+
+.responsibilities-list .list__item::marker,
+.achievements-list .list__item::marker {
+  color: #e9b200;
+}
