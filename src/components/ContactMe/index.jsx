@@ -18,7 +18,7 @@ export default function ContactMe() {
           <h1 className="relative font-extrabold text-5xl text-[#48AFDE] mb-5 -mt-40  md:px-24 px-5">
             {title}
           </h1>
-          <h4 className="relative w-full font-[300] md:w-3/4 lg:w-2/3 xl:w-1/2 font-recoleta text-[#223740] text-2xl mb-20 px-5 md:px-24">
+          <h4 className="relative w-full font-[300] md:w-3/4 lg:w-2/3 xl:w-2/2 font-recoleta text-[#223740] text-2xl mb-20 px-5 md:px-24">
             {description}
           </h4>
           <div className="flex flex-col sm:flex-row sm:justify-between lg:flex-row  lg:justify-between sm:max-w-[500px] mx-auto relative">
