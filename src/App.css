@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: "Recoleta";
+  src: url("./fonts/Recoleta-Thin.ttf") format("truetype");
+  src: url("./fonts/Recoleta-Thin.ttf") format("opentype");
+  font-weight: light;
+  font-style: normal;
+} */
+
+/* @font-face {
+  font-family: "Recoleta";
+  src: url("./fonts/Recoleta-Regular.ttf") format("truetype");
+  src: url("./fonts/Recoleta-Regular.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Recoleta";
+  src: url("./fonts/Recoleta-Bold.ttf") format("truetype");
+  src: url("./fonts/Recoleta-Bold.ttf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Recoleta";
+  src: url("./fonts/Recoleta-Black.ttf") format("truetype");
+  src: url("./fonts/Recoleta-Black.ttf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+} */
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  font-family: 'Recoleta', sans-serif;
+}
+
+/*responsible for the   blue tick when  a link is clicked */
+.menu-effect {
+  left: -0.75rem;
+  top: 0.125rem;
+  z-index: -10;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 0.5rem;
+  background-color: #48afde;
+  transition-duration: 0.5s;
+  position: absolute;
+  border-style: solid;
+}
+
+.menu li:nth-last-child(-n + 2) .menu-effect {
+  background-color: #e9b200;
+}
+
+.headerShow ul.menu .menu-effect {
+  background-color: #48afde;
+}
+
+/*this one here is responsible for the smooth scroll*/
+html {
+  scroll-behavior: smooth;
+}
+
+/*we dnt  wanna use webkit scrollbar on   a production website */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/*portfolio details overlay background */
+.overlay {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  /* z-index: 10;  */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.6)
+  );
+  backdrop-filter: blur(4px);
+  /* Add blur effect */
+}
+
+@media screen and (max-width: 900px) {
+  .ground-color-change {
+    background: linear-gradient(
+      90deg,
+      rgba(238, 247, 251, 1) 55%,
+      rgba(255, 255, 255, 1) 55%
+    );
+  }
+}
+
+@media (max-width: 640px) {
+  .my-slider {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .my-slider {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .headerShow {
+    background-color: #fff;
+    box-shadow: #48afde -10px 25px 50px 10px;
+  }
+}
