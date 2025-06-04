@@ -23,7 +23,7 @@ export const dataInfo = {
   experience: {
     title: 'Professional experience',
     description:
-      'Here are some of my recent projects. As a QA engineer, I always focus on delivering high-quality results and ensuring full client satisfaction. I enjoy working on each project - it’s always a new challenge and opportunity to learn something new.',
+      'Below are select projects demonstrating my expertise in manual and automated testing across diverse domains. Each project showcases specific challenges I solved, technologies I implemented, and measurable improvements delivered to development teams and end users.',
     jobs: [
       {
         id: 'j-01',
@@ -110,11 +110,11 @@ export const dataInfo = {
       'Skilled in creating and running tests for frontend and backend parts of applications.',
     description: {
       partOne:
-        'Experienced and proactive QA Engineer with 5 years of manual testing experience and 1 year in automated testing of web applications. Skilled in identifying critical issues and ensuring product quality through systematic testing and analysis.',
+        'QA Engineer with experience in end-to-end testing of web applications. I work with both manual testing and test automation, and I am good at API testing and checking if applications work well on different browsers and devices.',
       partTwo:
-        'My background includes working with UI/UX, front-end and back-end testing, as well as API testing. I focus equally on functionality and user experience.',
+        "What makes me different is that I think about both technical problems and user experience. I don't just find bugs - I also check how problems affect real users. My careful approach to creating tests has helped prevent serious issues from going live in FinTech, AdTech, and education projects.",
       partThree:
-        'Recognized for a strong problem-solving mindset, attention to detail, and effective collaboration with development teams. Always open to learning and sharing knowledge to improve both product quality and team performance.',
+        'I work well in teams where everyone cares about quality. I enjoy helping team members learn better testing methods, and I keep learning new automation tools and frameworks to improve my skills.',
     },
     skills: [
       {
@@ -189,7 +189,7 @@ export const dataInfo = {
   contactMe: {
     title: 'Contact me',
     description:
-      'I am always open to new ideas and ready to share my knowledge with others. If you have any questions or want to discuss a project, feel free to contact me.',
+      'Do you need help with testing your web applications or want to discuss QA automation? I am ready to help with your project or answer questions about testing strategies. Feel free to reach out - I would be happy to discuss how we can work together to make your software better.',
   },
   skills: {
     techSkills: [
