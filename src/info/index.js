@@ -46,12 +46,12 @@ export const dataInfo = {
         responsibilities: [
           'Analyze requirements and create test documentation (test cases, bug reports, test summary reports)',
           'Perform functional, integration, regression, smoke, usability, cross-browser, and ad-hoc testing',
-          'Perform API testing (REST API) using Postman and Playwright',
+          'Perform REST API testing using Postman and Playwright',
           'Test mobile applications (iOS/Android)',
           'Analyze logs and system errors to identify root causes',
           'Collaborate with the support team to investigate and reproduce user-reported issues',
-          'Creating automated tests (approx. 40% of working time) using: Java, Selenide, JUnit, Gradle, Allure; JavaScript/TypeScript, Playwright',
-          'Work across multiple projects in collaboration with developers',
+          'Create automated tests (approx. 40% of working time) using: Java, Selenide, JUnit, Gradle, Allure; JavaScript/TypeScript, Playwright',
+          'Work across multiple projects, collaborating with developers',
         ],
       },
       {
@@ -64,13 +64,13 @@ export const dataInfo = {
         companyCity: 'Kyiv',
         position: 'Manual QA engineer',
         responsibilities: [
-          'Analyzing project requirements and technical documentation',
-          'Testing company’s web applications and internal systems',
-          'Creating and executing test cases, test runs, bug reports, and test summary reports',
+          'Analyzed project requirements and technical documentation',
+          'Tested company’s web applications and internal systems',
+          'Created and executing test cases, test runs, bug reports, and test summary reports',
           'Performed functional, regression, usability, smoke, and ad-hoc testing',
           'Contributed to automation test coverage from scratch (Java, Selenium WebDriver, TestNG, Maven, Allure)',
           'Communicated with developers to clarify issues and ensure timely resolution',
-          'Participated in team meetings and providing feedback on product quality',
+          'Participated in team meetings and provided feedback on product quality',
         ],
         achievements: [
           'Learned the programming language Java',
