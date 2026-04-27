@@ -27,10 +27,39 @@ export const dataInfo = {
     jobs: [
       {
         id: 'j-01',
-        fromYear: '2021',
-        fromMonth: 'April',
+        fromYear: '2025',
+        fromMonth: 'December',
         toYear: 'Present',
         toMonth: '',
+        companyName: 'Trinetix',
+        companyCity: 'Kyiv',
+        position: 'Automation QA engineer',
+        achievements: [
+          'Started learning JavaScript/TypeScript to expand automation capabilities',
+          'Mastered the Playwright framework for web testing',
+          'Successfully migrated automation tests from Selenide/Java to Playwright/TypeScript',
+          'Reduced test execution time from 30 minutes to 15 minutes after migration to Playwright',
+          'Performed log analysis in Grafana and error tracking in Sentry',
+          'Started manual testing of mobile applications on both iOS and Android platforms',
+          'Began learning mobile app automation using the Detox framework',
+        ],
+        responsibilities: [
+          'Analyze requirements and create test documentation (test cases, bug reports, test summary reports)',
+          'Perform functional, integration, regression, smoke, usability, cross-browser, and ad-hoc testing',
+          'Perform REST API testing using Postman and Playwright',
+          'Test mobile applications (iOS/Android)',
+          'Analyze logs and system errors to identify root causes',
+          'Collaborate with the support team to investigate and reproduce user-reported issues',
+          'Create automated tests (approx. 40% of working time) using: Java, Selenide, JUnit, Gradle, Allure; JavaScript/TypeScript, Playwright',
+          'Work across multiple projects, collaborating with developers',
+        ],
+      },
+      {
+        id: 'j-02',
+        fromYear: '2021',
+        fromMonth: 'April',
+        toYear: '2025',
+        toMonth: 'November',
         companyName: 'Treeum',
         companyCity: 'Kyiv',
         position: 'Manual and automation QA engineer',
@@ -55,7 +84,7 @@ export const dataInfo = {
         ],
       },
       {
-        id: 'j-02',
+        id: 'j-03',
         fromYear: '2019',
         fromMonth: 'August',
         toYear: '2021',
@@ -80,7 +109,7 @@ export const dataInfo = {
         ],
       },
       {
-        id: 'j-03',
+        id: 'j-04',
         fromYear: '2018',
         fromMonth: 'December',
         toYear: '2019',
@@ -241,9 +270,9 @@ export const dataInfo = {
   },
   educations: [
     {
-      certification: 'Manual QA Engineer',
-      company: 'GOIT Academy',
-      year: '2018',
+      certification: 'QA Automation Engineer',
+      company: 'Yet Another QA School',
+      year: '2025',
       city: 'Kyiv',
     },
     {
@@ -253,9 +282,9 @@ export const dataInfo = {
       city: 'Kyiv',
     },
     {
-      certification: 'QA Automation Engineer',
-      company: 'Yet Another QA School',
-      year: '2025',
+      certification: 'Manual QA Engineer',
+      company: 'GOIT Academy',
+      year: '2018',
       city: 'Kyiv',
     },
     {
