@@ -168,7 +168,7 @@ export default function Home() {
                 <h2 className="languages__title text-[#e9b200] py-2 font-bold md:text-xl">
                   Languages
                 </h2>
-                <ul className="languages__list">
+                <ul className="languages__list mb-4">
                   {languages.map((language, index) => (
                     <li key={index} className="languages__list-item">
                       <Language {...language} />
@@ -176,24 +176,6 @@ export default function Home() {
                   ))}
                 </ul>
               </div>
-            </div>
-            <div className="right-column">
-              <div className="summary-right">
-                <h2 className="summary__title text-[#e9b200] py-2 font-bold md:text-xl">
-                  Summary
-                </h2>
-                <p className="summary__description">{description}</p>
-              </div>
-              <h2 className="experience__title text-[#e9b200] py-2 font-bold md:text-xl">
-                Experience
-              </h2>
-              <ul className="experience__list pb-10">
-                {jobs.map((job, index) => (
-                  <li key={index} className="experience__list-item">
-                    <Job {...job} />
-                  </li>
-                ))}
-              </ul>
               <div className="education">
                 <h2 className="education__title text-[#e9b200] py-2 font-bold md:text-xl">
                   Education
@@ -218,6 +200,48 @@ export default function Home() {
                   </ul>
                 </div> */}
               </div>
+            </div>
+            <div className="right-column">
+              <div className="summary-right">
+                <h2 className="summary__title text-[#e9b200] py-2 font-bold md:text-xl">
+                  Summary
+                </h2>
+                <p className="summary__description">{description}</p>
+              </div>
+              <h2 className="experience__title text-[#e9b200] py-2 font-bold md:text-xl">
+                Experience
+              </h2>
+              <ul className="experience__list pb-10">
+                {jobs.map((job, index) => (
+                  <li key={index} className="experience__list-item">
+                    <Job {...job} />
+                  </li>
+                ))}
+              </ul>
+              {/* <div className="education">
+                <h2 className="education__title text-[#e9b200] py-2 font-bold md:text-xl">
+                  Education
+                </h2>
+                <ul className="education__list">
+                  {educations.map((education, index) => (
+                    <li key={index} className="education__list-item">
+                      <Education {...education} />
+                    </li>
+                  ))}
+                </ul>
+                <div className="languages">
+                  <h2 className="languages__title text-[#e9b200] py-2 font-bold md:text-xl">
+                    Languages
+                  </h2>
+                  <ul className="languages__list">
+                    {languages.map((language, index) => (
+                      <li key={index} className="languages__list-item">
+                        <Language {...language} />
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div> */}
             </div>
           </section>
 
